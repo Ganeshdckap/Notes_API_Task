@@ -1,0 +1,205 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.mainContainer {
+    max-width: 1440px;
+    width: 100%;
+}
+body {
+    background-color: rgb(0, 0, 255);
+}
+.toDo {
+    background: white;
+    margin-left: 1%;
+    height: 20rem;
+    width: 20rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+    margin: top;
+    margin-top: 110px;
+    color: rgb(0, 0, 255);
+    ;
+}
+
+#add.material-symbols-outlined {
+    font-size: 100px;
+    margin-left: 97px;
+    color: rgb(0, 0, 255);
+    ;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.notes {
+    background: white;
+    padding: 2%;
+    list-style: none;
+    width: 24%;
+}
+
+.title {
+    font-weight: bold;
+    margin: 2%;
+    width: 100%;
+    padding: 2%;
+}
+
+.description {
+    font-size: 18px;
+    margin: 2%;
+    width: 100%;
+    padding: 3%;
+    height: 150px;
+}
+
+.line {
+    height: 1px;
+    width: 100%;
+    background: black;
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 18%;
+    margin: 1%;
+}
+
+#close {
+    font-size: 50px;
+    cursor: pointer;
+    color: red;
+}
+
+.moreicon {
+    height: 30px;
+    width: 30px;
+}
+
+.container {
+    position: relative;
+    margin: 1%;
+}
+
+.more {
+    position: absolute;
+    top: 20px;
+    left: 50px;
+}
+
+.form {
+    display: none;
+}
+
+.thirdmainDiv {
+    display: flex;
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+}
+
+.container {
+    position: relative;
+}
+
+.form {
+    position: absolute;
+    left: 30%;
+    top: 10%;
+    z-index: 4;
+    /* box-shadow: 10px 10px 24px rgb(122, 120, 151); */
+    border-radius: 10px;
+
+}
+
+.add {
+    padding: 2%;
+    margin-left: 38%;
+    background-color: blue;
+    border-radius: 2px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 5%;
+}
+
+.add:hover {
+    cursor: pointer;
+    color: black;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.moreicon {
+    cursor: pointer;
+    margin-left: 160px;
+    position: relative;
+    bottom: 21px;
+}
+
+.main {
+    margin: 2%;
+    padding: 2%;
+}
+
+label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.notess {
+    margin-left: 20px;
+}
+
+.red:hover {
+    cursor: pointer;
+}
+
+.editBtn {
+    background-color: blue;
+    border-radius: 2px;
+    border: 0;
+    font-size: 20px;
+    border-radius: 10px;
+    font-weight: bolder;
+    color: white;
+    width: 80px;
+    margin-left: 6px;
+    cursor: pointer;
+}
+
+.deleteBtn {
+    background-color: #ff0000;
+    border-radius: 2px;
+    border: 0;
+    font-size: 20px;
+    border-radius: 10px;
+    width: 80px;
+    color: white;
+    cursor: pointer;
+}
+
+.update {
+
+    background-color: black;
+    border-radius: 2px;
+    border: 0;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: white;
+    margin-left: 16rem;
+}
